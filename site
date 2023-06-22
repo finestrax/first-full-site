@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Button Example</title>
+  </head>
+  <body>
+    <button id="button1">Button 1</button>
+    <button id="button2">Button 2</button>
+    <button id="button3">Button 3</button>
+
+    <script>
+      // Get references to the buttons
+      const button1 = document.getElementById("button1");
+      const button2 = document.getElementById("button2");
+      const button3 = document.getElementById("button3");
+
+      // Add event listeners to the buttons
+      button1.addEventListener("click", () => {
+        console.log("Button 1 clicked");
+      });
+
+      button2.addEventListener("click", () => {
+        console.log("Button 2 clicked");
+      });
+
+      button3.addEventListener("click", () => {
+        console.log("Button 3 clicked");
+      });
+    </script>
+  </body>
+</html>
